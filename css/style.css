@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #eeeeee;
+}
+.navbar {
+  min-height: 60px;
+  background-color: #262626;
+
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar a:hover {
+  background-color: #ffffff;
+  color: #262626;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 25vh;
+  background: url("../images/writing.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+.premest a {
+  color: aqua;
+}
+/* Card */
+.card {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.card img {
+  width: 100%;
+}
+.card .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+/* Sinto */
+.sinto {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+.sinto img {
+  width: 100%;
+}
+.sinto .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Cold weather */
+.weather {
+  height: 150px;
+  margin: 0;
+  background: url("../images/cold-weather.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* About Sinto */
+.about-sinto {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  margin: 50px;
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+.about-sinto img {
+  width: 100%;
+}
+
+.about-sinto .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Sinto Profile */
+.profile-sinto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+/* Sinto Social links */
+.social-sinto {
+  margin: 10px 0;
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.social-sinto li {
+  padding: 0 10px;
+}
+
+/*  Contact Sinto */
+.contact-sinto {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  margin: 50px;
+  padding: 50px;
+  background-color: #ffffff;
+}
+
+.contact-sinto img {
+  width: 50%;
+}
+
+.about-sinto .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.text-sinto-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Services */
+.services {
+  min-height: 50vh;
+  background: url("../images/cold-weather.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.services-sinto {
+  width: 65%;
+  margin: auto;
+  padding: 20px;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 1.5rem;
+}
+.services-sinto h2 {
+  padding: 100px 20px;
+}
+
+.services-sinto h2:hover {
+  border-bottom: 5px solid black;
+}
+.services-sinto ol {
+  padding: 50px;
+}
+
+/* Footer */
+.footer {
+  background-color: #262626;
+  color: #ffffff;
+  width: 100%;
+  min-height: 100px;
+  padding: 20px;
+  text-align: center;
+}
